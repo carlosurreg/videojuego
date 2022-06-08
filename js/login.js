@@ -6,7 +6,6 @@ let alerta=document.getElementById("alerta")
 
 botonlogin.addEventListener("click",function(evento){
     evento.preventDefault()
-    console.log("haciendo un token")
     let email=document.getElementById("Email1login").value
     let password=document.getElementById("Passwordloguin").value
 
